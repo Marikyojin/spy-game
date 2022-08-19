@@ -66,13 +66,11 @@ flutter:
     - assets/images/anya_forger/anya_up.png
     - assets/images/anya_forger/anya_left.png
     - assets/images/anya_forger/anya_right.png
-    - assets/images/maps/map.json
-    - assets/images/maps/home.json
-    - assets/images/maps/home2.json
-    - assets/images/maps/sofa.json
-    - assets/images/maps/home.png
-    - assets/images/maps/house.png
-    - assets/images/maps/sofa.png
+    - assets/images/maps/living_room.json
+    - assets/images/maps/floor.json
+    - assets/images/maps/furnitures.json
+    - assets/images/maps/floor.png
+    - assets/images/maps/furnitures.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

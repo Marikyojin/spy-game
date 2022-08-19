@@ -14,7 +14,7 @@ class _StarterState extends State<Starter> {
   Widget build(BuildContext context) {
     return BonfireTiledWidget(
         map: TiledWorldMap(
-          'maps/map.json',
+          'maps/living_room.json',
           forceTileSize: Size(32, 32),
         ),
         player: AnyaPlayer(),

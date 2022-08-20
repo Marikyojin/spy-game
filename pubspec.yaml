@@ -71,6 +71,9 @@ flutter:
     - assets/images/maps/furnitures.json
     - assets/images/maps/floor.png
     - assets/images/maps/furnitures.png
+    - assets/fonts/8_bit_madness.ttf
+    - assets/images/yor_forger/yor_left.png
+    - assets/images/yor_forger/yor_right.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

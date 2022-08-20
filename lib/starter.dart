@@ -1,8 +1,12 @@
 import 'package:bonfire/bonfire.dart';
 import 'package:flutter/material.dart';
 import 'package:spy/anya_forger/anya_player.dart';
+import 'package:spy/yor_forger/yor_enemy.dart';
+
+
 
 class Starter extends StatefulWidget {
+  static const String routName = "starter";
   const Starter({Key? key}) : super(key: key);
 
   @override
@@ -19,8 +23,11 @@ class _StarterState extends State<Starter> {
         ),
         player: AnyaPlayer(),
         joystick: JoystickMoveToPosition(
-          mouseButtonUsedToMoveToPosition: MouseButton.middle
+          mouseButtonUsedToMoveToPosition: MouseButton.left
         ),
+        components: [
+          YorEnemy()
+        ],
     );
   }
 }

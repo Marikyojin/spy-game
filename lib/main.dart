@@ -1,10 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:spy/starter.dart';
 
+
+
+
 void main() {
   runApp(
-    const MaterialApp(
-      home: Starter(),
+    MaterialApp(
+      title: "Spy vs Family game",
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+        fontFamily: '8BitMadness'
+      ),
+      initialRoute: Starter.routName,
+      routes: {
+        Starter.routName: (context) => Starter(),
+      },
     )
   );
 }
